@@ -94,3 +94,10 @@ function generateSequence() {
         generateSequence();
       }
   });
+
+  $("#level-title").on("click", function() {
+      if(start===0){
+        $("#level-title").text("Level 1");
+        generateSequence();
+      }
+  });
